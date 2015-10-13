@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EFFB4541BBA326000E1123A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFFB4531BBA326000E1123A /* Foundation.framework */; };
+		4EFFB4561BBA326000E1123A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFFB4551BBA326000E1123A /* CoreGraphics.framework */; };
+		4EFFB4581BBA326000E1123A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFFB4571BBA326000E1123A /* UIKit.framework */; };
+		4EFFB45E1BBA326000E1123A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EFFB45C1BBA326000E1123A /* InfoPlist.strings */; };
+		4EFFB4601BBA326000E1123A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFFB45F1BBA326000E1123A /* main.m */; };
+		4EFFB4641BBA326000E1123A /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFFB4631BBA326000E1123A /* XLAppDelegate.m */; };
+		4EFFB4671BBA326000E1123A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFFB4651BBA326000E1123A /* Main_iPhone.storyboard */; };
+		4EFFB46A1BBA326000E1123A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFFB4681BBA326000E1123A /* Main_iPad.storyboard */; };
+		4EFFB46D1BBA326000E1123A /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFFB46C1BBA326000E1123A /* XLViewController.m */; };
+		4EFFB46F1BBA326000E1123A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFFB46E1BBA326000E1123A /* Images.xcassets */; };
+		4EFFB4761BBA326000E1123A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFFB4751BBA326000E1123A /* XCTest.framework */; };
+		4EFFB4771BBA326000E1123A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFFB4531BBA326000E1123A /* Foundation.framework */; };
+		4EFFB4781BBA326000E1123A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFFB4571BBA326000E1123A /* UIKit.framework */; };
+		4EFFB4801BBA326000E1123A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EFFB47E1BBA326000E1123A /* InfoPlist.strings */; };
+		4EFFB4821BBA326000E1123A /* iOS12_3CALayer__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFFB4811BBA326000E1123A /* iOS12_3CALayer__Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EFFB4791BBA326000E1123A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFFB4481BBA326000E1123A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFFB44F1BBA326000E1123A;
+			remoteInfo = "iOS12.3CALayer练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EFFB4501BBA326000E1123A /* iOS12.3CALayer练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS12.3CALayer练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFFB4531BBA326000E1123A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EFFB4551BBA326000E1123A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EFFB4571BBA326000E1123A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EFFB45B1BBA326000E1123A /* iOS12.3CALayer练习-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS12.3CALayer练习-Info.plist"; sourceTree = "<group>"; };
+		4EFFB45D1BBA326000E1123A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EFFB45F1BBA326000E1123A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EFFB4611BBA326000E1123A /* iOS12.3CALayer练习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS12.3CALayer练习-Prefix.pch"; sourceTree = "<group>"; };
+		4EFFB4621BBA326000E1123A /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		4EFFB4631BBA326000E1123A /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		4EFFB4661BBA326000E1123A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4EFFB4691BBA326000E1123A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4EFFB46B1BBA326000E1123A /* XLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLViewController.h; sourceTree = "<group>"; };
+		4EFFB46C1BBA326000E1123A /* XLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLViewController.m; sourceTree = "<group>"; };
+		4EFFB46E1BBA326000E1123A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EFFB4741BBA326000E1123A /* iOS12.3CALayer练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS12.3CALayer练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFFB4751BBA326000E1123A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4EFFB47D1BBA326000E1123A /* iOS12.3CALayer练习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS12.3CALayer练习Tests-Info.plist"; sourceTree = "<group>"; };
+		4EFFB47F1BBA326000E1123A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EFFB4811BBA326000E1123A /* iOS12_3CALayer__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS12_3CALayer__Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFFB44D1BBA326000E1123A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFFB4561BBA326000E1123A /* CoreGraphics.framework in Frameworks */,
+				4EFFB4581BBA326000E1123A /* UIKit.framework in Frameworks */,
+				4EFFB4541BBA326000E1123A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFFB4711BBA326000E1123A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFFB4761BBA326000E1123A /* XCTest.framework in Frameworks */,
+				4EFFB4781BBA326000E1123A /* UIKit.framework in Frameworks */,
+				4EFFB4771BBA326000E1123A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EFFB4471BBA326000E1123A = {
+			isa = PBXGroup;
+			children = (
+				4EFFB4591BBA326000E1123A /* iOS12.3CALayer练习 */,
+				4EFFB47B1BBA326000E1123A /* iOS12.3CALayer练习Tests */,
+				4EFFB4521BBA326000E1123A /* Frameworks */,
+				4EFFB4511BBA326000E1123A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFFB4511BBA326000E1123A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFFB4501BBA326000E1123A /* iOS12.3CALayer练习.app */,
+				4EFFB4741BBA326000E1123A /* iOS12.3CALayer练习Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFFB4521BBA326000E1123A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EFFB4531BBA326000E1123A /* Foundation.framework */,
+				4EFFB4551BBA326000E1123A /* CoreGraphics.framework */,
+				4EFFB4571BBA326000E1123A /* UIKit.framework */,
+				4EFFB4751BBA326000E1123A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EFFB4591BBA326000E1123A /* iOS12.3CALayer练习 */ = {
+			isa = PBXGroup;
+			children = (
+				4EFFB4621BBA326000E1123A /* XLAppDelegate.h */,
+				4EFFB4631BBA326000E1123A /* XLAppDelegate.m */,
+				4EFFB4651BBA326000E1123A /* Main_iPhone.storyboard */,
+				4EFFB4681BBA326000E1123A /* Main_iPad.storyboard */,
+				4EFFB46B1BBA326000E1123A /* XLViewController.h */,
+				4EFFB46C1BBA326000E1123A /* XLViewController.m */,
+				4EFFB46E1BBA326000E1123A /* Images.xcassets */,
+				4EFFB45A1BBA326000E1123A /* Supporting Files */,
+			);
+			path = "iOS12.3CALayer练习";
+			sourceTree = "<group>";
+		};
+		4EFFB45A1BBA326000E1123A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EFFB45B1BBA326000E1123A /* iOS12.3CALayer练习-Info.plist */,
+				4EFFB45C1BBA326000E1123A /* InfoPlist.strings */,
+				4EFFB45F1BBA326000E1123A /* main.m */,
+				4EFFB4611BBA326000E1123A /* iOS12.3CALayer练习-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EFFB47B1BBA326000E1123A /* iOS12.3CALayer练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFFB4811BBA326000E1123A /* iOS12_3CALayer__Tests.m */,
+				4EFFB47C1BBA326000E1123A /* Supporting Files */,
+			);
+			path = "iOS12.3CALayer练习Tests";
+			sourceTree = "<group>";
+		};
+		4EFFB47C1BBA326000E1123A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EFFB47D1BBA326000E1123A /* iOS12.3CALayer练习Tests-Info.plist */,
+				4EFFB47E1BBA326000E1123A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFFB44F1BBA326000E1123A /* iOS12.3CALayer练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFFB4851BBA326000E1123A /* Build configuration list for PBXNativeTarget "iOS12.3CALayer练习" */;
+			buildPhases = (
+				4EFFB44C1BBA326000E1123A /* Sources */,
+				4EFFB44D1BBA326000E1123A /* Frameworks */,
+				4EFFB44E1BBA326000E1123A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS12.3CALayer练习";
+			productName = "iOS12.3CALayer练习";
+			productReference = 4EFFB4501BBA326000E1123A /* iOS12.3CALayer练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EFFB4731BBA326000E1123A /* iOS12.3CALayer练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFFB4881BBA326000E1123A /* Build configuration list for PBXNativeTarget "iOS12.3CALayer练习Tests" */;
+			buildPhases = (
+				4EFFB4701BBA326000E1123A /* Sources */,
+				4EFFB4711BBA326000E1123A /* Frameworks */,
+				4EFFB4721BBA326000E1123A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFFB47A1BBA326000E1123A /* PBXTargetDependency */,
+			);
+			name = "iOS12.3CALayer练习Tests";
+			productName = "iOS12.3CALayer练习Tests";
+			productReference = 4EFFB4741BBA326000E1123A /* iOS12.3CALayer练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFFB4481BBA326000E1123A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = xuli;
+				TargetAttributes = {
+					4EFFB4731BBA326000E1123A = {
+						TestTargetID = 4EFFB44F1BBA326000E1123A;
+					};
+				};
+			};
+			buildConfigurationList = 4EFFB44B1BBA326000E1123A /* Build configuration list for PBXProject "iOS12.3CALayer练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EFFB4471BBA326000E1123A;
+			productRefGroup = 4EFFB4511BBA326000E1123A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFFB44F1BBA326000E1123A /* iOS12.3CALayer练习 */,
+				4EFFB4731BBA326000E1123A /* iOS12.3CALayer练习Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFFB44E1BBA326000E1123A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFFB46A1BBA326000E1123A /* Main_iPad.storyboard in Resources */,
+				4EFFB46F1BBA326000E1123A /* Images.xcassets in Resources */,
+				4EFFB4671BBA326000E1123A /* Main_iPhone.storyboard in Resources */,
+				4EFFB45E1BBA326000E1123A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFFB4721BBA326000E1123A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFFB4801BBA326000E1123A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFFB44C1BBA326000E1123A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFFB4641BBA326000E1123A /* XLAppDelegate.m in Sources */,
+				4EFFB4601BBA326000E1123A /* main.m in Sources */,
+				4EFFB46D1BBA326000E1123A /* XLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFFB4701BBA326000E1123A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFFB4821BBA326000E1123A /* iOS12_3CALayer__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EFFB47A1BBA326000E1123A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFFB44F1BBA326000E1123A /* iOS12.3CALayer练习 */;
+			targetProxy = 4EFFB4791BBA326000E1123A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EFFB45C1BBA326000E1123A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFFB45D1BBA326000E1123A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EFFB4651BBA326000E1123A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFFB4661BBA326000E1123A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFFB4681BBA326000E1123A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFFB4691BBA326000E1123A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFFB47E1BBA326000E1123A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFFB47F1BBA326000E1123A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFFB4831BBA326000E1123A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EFFB4841BBA326000E1123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EFFB4861BBA326000E1123A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS12.3CALayer练习/iOS12.3CALayer练习-Prefix.pch";
+				INFOPLIST_FILE = "iOS12.3CALayer练习/iOS12.3CALayer练习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EFFB4871BBA326000E1123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS12.3CALayer练习/iOS12.3CALayer练习-Prefix.pch";
+				INFOPLIST_FILE = "iOS12.3CALayer练习/iOS12.3CALayer练习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4EFFB4891BBA326000E1123A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS12.3CALayer练习.app/iOS12.3CALayer练习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS12.3CALayer练习/iOS12.3CALayer练习-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS12.3CALayer练习Tests/iOS12.3CALayer练习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4EFFB48A1BBA326000E1123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS12.3CALayer练习.app/iOS12.3CALayer练习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS12.3CALayer练习/iOS12.3CALayer练习-Prefix.pch";
+				INFOPLIST_FILE = "iOS12.3CALayer练习Tests/iOS12.3CALayer练习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFFB44B1BBA326000E1123A /* Build configuration list for PBXProject "iOS12.3CALayer练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFFB4831BBA326000E1123A /* Debug */,
+				4EFFB4841BBA326000E1123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFFB4851BBA326000E1123A /* Build configuration list for PBXNativeTarget "iOS12.3CALayer练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFFB4861BBA326000E1123A /* Debug */,
+				4EFFB4871BBA326000E1123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EFFB4881BBA326000E1123A /* Build configuration list for PBXNativeTarget "iOS12.3CALayer练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFFB4891BBA326000E1123A /* Debug */,
+				4EFFB48A1BBA326000E1123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFFB4481BBA326000E1123A /* Project object */;
+}
