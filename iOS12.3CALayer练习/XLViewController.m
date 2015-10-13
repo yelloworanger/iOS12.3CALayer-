@@ -17,7 +17,7 @@
 {
     
     
-//    fksdjlksndlknasdkladkj
+
     //<1>获取点击屏幕的触摸点
     UITouch * touch = [touches anyObject];
     //<2>获取触摸点的坐标
